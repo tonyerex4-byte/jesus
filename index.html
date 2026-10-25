@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Food Diary</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f8efe6;
+      color: #292929;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+    }
+
+    header h1,
+    header h2,
+    header h3,
+    header p {
+      margin: 0;
+      font-weight: 400;
+    }
+
+    header h1 {
+      font-size: clamp(32px, 9.65vw, 50px);
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+
+    header h2 {
+      font-size: clamp(28px, 8.7vw, 45px);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    header h3 {
+      font-size: clamp(24px, 7.3vw, 38px);
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 29px;
+      line-height: 1.2;
+      margin-bottom: 9px;
+    }
+
+    header p span {
+      font-size: 23px;
+    }
+
+    section {
+      border-top: 1px solid #df966b;
+      padding: 13px 16px 9px;
+    }
+
+    section h2 {
+      margin: 0 0 6px;
+      color: #d87330;
+      font-size: 17px;
+      font-weight: 400;
+    }
+
+    section p {
+      margin: 0;
+      font-size: 8px;
+      line-height: 1.5;
+    }
+
+    .facts p + p {
+      margin-top: 9px;
+    }
+
+    mark {
+      background: #e9e5c6;
+      color: inherit;
+    }
+
+    .cooking {
+      padding-top: 13px;
+      padding-bottom: 9px;
+    }
+
+    .cooking h2 {
+      margin-bottom: 4px;
+    }
+
+    .cooking strong {
+      color: #d87330;
+    }
+
+    .quote {
+      padding-top: 12px;
+      min-height: 124px;
+    }
+
+    .quote h2 {
+      margin-bottom: 5px;
+    }
+
+    blockquote {
+      width: fit-content;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 0 8px 8px;
+      border-left: 2px solid #d87330;
+      color: #777;
+      text-align: left;
+      font-size: 9px;
+      font-style: italic;
+    }
+
+    blockquote p {
+      font-size: inherit;
+    }
+
+    blockquote cite {
+      display: block;
+      margin-top: 9px;
+      font-size: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MY FOOD DIARY</h1>
+    <h2>My Top Dishes</h2>
+    <h3>Fun Food Facts</h3>
+    <p>Food Guide <span>by Alex</span></p>
+  </header>
+
+  <main>
+    <section class="facts">
+      <h2>Did You Know?</h2>
+      <p>
+        Pizza is the <mark>most popular</mark> food ordered by kids
+        around the world.
+      </p>
+      <p>It takes about 30 minutes to bake a perfect homemade pizza.</p>
+    </section>
+
+    <section class="cooking">
+      <h2>Cooking Style</h2>
+      <p>
+        My favourite way to cook with family is a good old
+        <strong>BBQ</strong> on a sunny day.
+      </p>
+    </section>
+
+    <section class="quote">
+      <h2>Food Quote</h2>
+      <blockquote>
+        <p>"First we eat, then we do everything else."</p>
+        <cite> M.F.K. Fisher</cite>
+      </blockquote>
+    </section>
+  </main>
+</body>
+</html>
